@@ -150,6 +150,15 @@ p {
 	font-size: 5em;
 }
 
+.header a {
+	color: #191919;
+	background-color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+	padding: 5px;
+}
+
+
 .header .btn {
 	margin-top: 5px;
 }
@@ -158,9 +167,6 @@ p {
 .smallimg {
 	max-width: 20%;
 }
-
-/* About */
-
 
 /* Wednesday */
 
