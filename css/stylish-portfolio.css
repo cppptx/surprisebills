@@ -163,6 +163,12 @@ p {
 	margin-top: 5px;
 }
 
+#headerlogo {
+	max-width: 30%;
+	padding-top: 3%;
+	padding-bottom: 2%;
+}
+
 /* Images */
 .smallimg {
 	max-width: 20%;
