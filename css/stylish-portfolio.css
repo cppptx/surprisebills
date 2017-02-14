@@ -174,50 +174,11 @@ p {
 	max-width: 20%;
 }
 
-/* Wednesday */
+/* Number sections */
 
-
-
-/* Callout */
-
-#callout1 {
-    display: table;
-    width: 100%;
-    height: 400px;
-    color: #fff;
-    background: url(../img/CPPP-56.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-	z-index: 900;
+.sectionnum {
+	font-size: 5.3em;
 }
-
-#callout2 {
-    display: table;
-    width: 100%;
-    height: 400px;
-    color: #fff;
-    background: url(../img/CPPP-342.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-	z-index: 900;
-}
-
-
-
-/* Portfolio */
-
-
-
-/* Call to Action */
-
-
-
-/* Map */
-
 
 
 
