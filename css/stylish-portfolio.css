@@ -4,8 +4,13 @@ body {
     height: 100%;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h4, h5 {
     font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+	font-family: 'Dancing Script', arial;
+	font-weight: 700;
 }
 
 p {
@@ -130,13 +135,19 @@ p {
 }
 
 .header h1 {
-	color: #DB2800;
-	font-size: 6em;
+	color: #fff;
+	font-size: 8em;
+	margin-bottom: -15px;
 }
 
 .header h3 {
-	color: #F6AA32;
+	color: #044C55;
 	font-size: 3em;
+}
+
+.header h2 {
+	color: #044C55;
+	font-size: 5em;
 }
 
 .header .btn {
