@@ -262,3 +262,7 @@ footer {
   right: 5px;
   z-index: 1020;
 }
+
+.list-unstyled {
+	font-family: 'Oswald', sans-serif;
+}
