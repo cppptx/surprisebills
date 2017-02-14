@@ -132,6 +132,7 @@ p {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+	margin-bottom: 10px;
 }
 
 .header h1 {
@@ -165,7 +166,7 @@ p {
 
 #headerlogo {
 	max-width: 30%;
-	padding-top: 3%;
+	padding-top: 1%;
 	padding-bottom: 2%;
 }
 
@@ -178,6 +179,12 @@ p {
 
 .sectionnum {
 	font-size: 5.3em;
+}
+
+.descrip {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5%;
 }
 
 
