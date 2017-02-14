@@ -10,12 +10,9 @@ h1, h2, h3, h4, h5 {
 
 p {
 	font-size: 1.30em;
-	font-family: 'Didact Gothic', sans-serif;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 100;
 }	
-
-p a {
-	font-family: 'Didact Gothic', sans-serif;
-}
 
 .text-vertical-center {
     display: table-cell;
@@ -28,44 +25,6 @@ p a {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
-}
-
-/* Custom Button Styles */
-
-.btn-dark {
-    border-radius: 0;
-    color: #fff;
-    background-color: #0D9DB8;
-	font-weight: 700;
-	font-style: italic;
-	font-size: 1.3em;
-	font-family: 'PT Sans', sans-serif;
-}
-
-.btn-dark:hover,
-.btn-dark:focus,
-.btn-dark:active {
-    color: #fff;
-    background-color: #F6AA32;
-}
-
-.btn-light {
-    border-radius: 0;
-    color: #333;
-    background-color: rgb(255,255,255);
-}
-
-.btn-light:hover,
-.btn-light:focus,
-.btn-light:active {
-    color: #333;
-    background-color: rgba(255,255,255,0.8);
-}
-
-/* Custom Horizontal Rule */
-
-hr.small {
-    max-width: 100px;
 }
 
 /* Side Menu */
@@ -163,7 +122,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/agendaheader-01.png) no-repeat center center scroll;
+    background-color: #4BC6DF;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -184,54 +143,17 @@ hr.small {
 	margin-top: 5px;
 }
 
+/* Images */
+.smallimg {
+	max-width: 20%;
+}
+
 /* About */
 
-.about {
-    padding: 50px 0;
-}
-
-#about a {
-	color: white;
-}
-
-.popover-title {
-	font-family: 'PT Sans', sans-serif;
-	font-weight: 700;
-	font-style: italic;
-}
-
-.popover-content {
-	font-family: 'Didact Gothic', sans-serif;
-	height: 200px;
-  	overflow-y: scroll;
-}
-
-.popover-title, .popover-content {
-	color: #101010;	
-}
-
-.biglogo {
-	width: 45%;
-}
-
-.smalllogo {
-	width: 30%;
-}
-
-.sponsor {
-	padding-bottom: 5%;
-}
 
 /* Wednesday */
 
-.services {
-    padding: 50px 0;
-	background-color: #0C9DB8;
-}
 
-.service-item {
-    margin-bottom: 30px;
-}
 
 /* Callout */
 
@@ -261,128 +183,19 @@ hr.small {
 	z-index: 900;
 }
 
-#separate {
-	padding-top: 3%;
-}
 
-.sessiontime {
-	font-style:italic;
-	color: #8E8E8E
-}
-
-#learnmore {
-	background-color: #F6AA30;
-}
-
-.register {
-	background-color: #DA2E26;
-	font-weight: 700;
-	font-style: italic;
-	font-size: 1.3em;
-	font-family: 'PT Sans', sans-serif;
-}
-
-#menuregister {
-	color: white;
-}
-
-/* agenda legend */
-
-.legend li { 
-	font-size: 1.2em;
-	padding: 5px;
-	margin-top: 1.5px;
-	margin-bottom: 1.5px;
-}
-
-.agenda li {
-	position: relative;
-	padding: 5px
-}
-
-.agenda a {
-	font-size: 1.1em;
-}
-
-#plenary2 {
-	padding: 4px;
-}
-
-.invest {
-	border-left: solid #5BBA47 5px;
-	color: #010101;
-	background-color: #F2F2F2;
-	margin-left: 2px;
-}
-
-.health {
-	border-left: solid #DA2E26 5px;
-	color: #010101;
-	background-color: #F2F2F2;
-	margin-left: 2px;
-}
-
-.economic {
-	border-left: solid #0C9DB8 5px;
-	margin-left: 2px;
-	color: #010101;
-	background-color: #F2F2F2;
-}
-
-.education { 
-	border-left: solid #893C97 5px;
-	margin-left: 2px;
-	color: #010101;
-	background-color: #F2F2F2;
-}
-
-.communications {
-	border-left: solid #F6AA30 5px;
-	margin-left: 2px;
-	color: #010101;
-	background-color: #F2F2F2;
-}
-
-.other { 
-	border-left: solid #87766A 5px;
-	margin-left: 2px;
-	color: #010101;
-	background-color: #F2F2F2;
-}
 
 /* Portfolio */
 
-.portfolio {
-    padding: 50px 0;
-}
 
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.img-portfolio {
-    margin: 0 auto;
-}
-
-.img-portfolio:hover {
-    opacity: 0.8;
-}
 
 /* Call to Action */
 
-.call-to-action {
-    padding: 50px 0;
-}
 
-.call-to-action .btn {
-    margin: 10px;
-}
 
 /* Map */
 
-.map {
-    height: 500px;
-}
+
 
 
 /* Footer */
@@ -425,20 +238,4 @@ footer {
   bottom: 5px;
   right: 5px;
   z-index: 1020;
-}
-
-@media (max-width: 767px){
-  header, h1 {
-	  font-size: .8em;
-	  padding-top: 20%;
-  }
-  
-  .sponsorrow {
-  	  padding-bottom: 0%;
-  }
-  
-  .sponsors img {
-	  padding-bottom: 2%;
-  }
-  
 }
