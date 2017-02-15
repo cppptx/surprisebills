@@ -171,7 +171,7 @@ p {
 
 /* Images */
 .smallimg {
-	max-width: 20%;
+	max-width: 15%;
 }
 
 /* Number sections */
@@ -209,12 +209,9 @@ p {
 
 /* Footer */
 
-footer {
-    padding: 100px 0;
-}
-
 #logofooter {
-	width: 60%;
+	width: 50%;
+	margin-top: 3%;
 }
 
 #to-top {
@@ -227,4 +224,26 @@ footer {
 
 .list-unstyled {
 	font-family: 'Oswald', sans-serif;
+}
+
+@media (max-width: 991px) { 
+
+	.header h1 {
+	color: #fff;
+	font-size: 6em;
+	margin-bottom: -15px;
+	}
+
+	.header h3 {
+	color: #044C55;
+	font-size: 3em;
+	}
+
+	.header h2 {
+	color: #044C55;
+	font-size: 6em;
+	}
+	.smallimg {
+	max-width: 22%;
+	}
 }
