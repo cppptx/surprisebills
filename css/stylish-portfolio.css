@@ -209,30 +209,6 @@ p {
 
 /* Footer */
 
-footer .register {
-	margin-top: 10px;
-}
-
-.scrolloff {
-        pointer-events: none;
-    }
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
-
-.map iframe {
-    pointer-events: none;
-}
-
-#faq {
-	margin-top: 1%;
-}
-
-/* Footer */
-
 footer {
     padding: 100px 0;
 }
