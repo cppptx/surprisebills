@@ -177,6 +177,10 @@ p {
 
 /* Number sections */
 
+.section p {
+	font-weight: 100;
+}
+
 .sectionnum {
 	font-size: 5.3em;
 }
