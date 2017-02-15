@@ -132,7 +132,6 @@ p {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-	margin-bottom: 10px;
 }
 
 .header h1 {
@@ -176,6 +175,11 @@ p {
 }
 
 /* Number sections */
+
+.info {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
 .section p {
 	font-weight: 100;
