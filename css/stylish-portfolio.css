@@ -42,7 +42,7 @@ p {
     height: 100%;
     transform: translateX(250px);
     overflow-y: auto;
-    background: #6E6E6E;
+    background: #fff;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -53,7 +53,7 @@ p {
 .sidebar-nav {
     position: absolute;
     top: 0;
-    width: 250px;
+    width: 300px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -61,19 +61,20 @@ p {
 	
 .sidebar-nav li {
     text-indent: 20px;
+	font-size: 1.3em;
     line-height: 40px;
-	font-family: 'Didact Gothic', sans-serif;
+	font-family: 'Oswald', sans-serif;
 }
 
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #DBDBDB;
+    color: #101010;
 }
 
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: #fff;
+    color: #4BC6DF;
     background: rgba(255,255,255,0.2);
 }
 
@@ -104,6 +105,7 @@ p {
     position: fixed;
     top: 0;
     right: 0;
+	color: #044C55;
 }
 
 #sidebar-wrapper.active {
@@ -150,14 +152,20 @@ p {
 	font-size: 5em;
 }
 
-.header a {
+.header p {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 1%;
+	font-size: 1.5em;
+}
+
+#report_a {
 	color: #191919;
 	background-color: #fff;
 	font-family: 'Oswald', sans-serif;
 	font-size: 2em;
 	padding: 5px;
 }
-
 
 .header .btn {
 	margin-top: 5px;
