@@ -235,6 +235,10 @@ p {
 	font-family: 'Oswald', sans-serif;
 }
 
+#contactinfo {
+	font-size: 1.3em;
+}
+
 @media (max-width: 991px) { 
 	
 	#headerlogo {
