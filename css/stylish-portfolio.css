@@ -200,6 +200,7 @@ p {
 
 .sectionnum {
 	font-size: 5.3em;
+	margin-right: 2%;
 }
 
 .descripright {
@@ -235,6 +236,10 @@ p {
 }
 
 @media (max-width: 991px) { 
+	
+	#headerlogo {
+		max-width: 55%;
+	}
 
 	.header h1 {
 	color: #fff;
@@ -253,5 +258,22 @@ p {
 	}
 	.smallimg {
 	max-width: 22%;
+	}
+	
+}
+
+@media (max-width: 767px) { 
+	
+	#headerlogo {
+		max-width:75%;
+	}
+	
+	.smallimg {
+		max-width: 35%;
+	}
+	
+	#logofooter {
+	width: 90%;
+	margin-top: 3%;
 	}
 }
