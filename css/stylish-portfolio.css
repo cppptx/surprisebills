@@ -138,18 +138,24 @@ p {
 
 .header h1 {
 	color: #fff;
-	font-size: 8em;
+	font-size: 7em;
 	margin-bottom: -15px;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 
 .header h3 {
 	color: #044C55;
 	font-size: 3em;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 
 .header h2 {
 	color: #044C55;
 	font-size: 5em;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 
 .header p {
@@ -247,18 +253,18 @@ p {
 
 	.header h1 {
 	color: #fff;
-	font-size: 6em;
+	font-size: 6.5em;
 	margin-bottom: -15px;
 	}
 
 	.header h3 {
 	color: #044C55;
-	font-size: 3em;
+	font-size: em;
 	}
 
 	.header h2 {
 	color: #044C55;
-	font-size: 6em;
+	font-size: 4.4em;
 	}
 	.smallimg {
 	max-width: 22%;
@@ -267,6 +273,18 @@ p {
 }
 
 @media (max-width: 767px) { 
+	
+	.header h1 {
+		font-size: 5em;
+	}
+	
+	.header h2 {
+		font-size: 3.5em;
+	}
+	
+	.header p {
+		font-size: 1.6em;
+	}
 	
 	#headerlogo {
 		max-width:75%;
