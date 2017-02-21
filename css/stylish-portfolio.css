@@ -183,6 +183,11 @@ p {
 	padding-bottom: 2%;
 }
 
+/* video */
+#surprisevideo {
+	padding-top: 1%;
+}
+
 /* Images */
 .smallimg {
 	max-width: 15%;
@@ -288,6 +293,10 @@ p {
 	
 	#headerlogo {
 		max-width:75%;
+	}
+	
+	#surprisevideo {
+		padding-top: 0%;
 	}
 	
 	.smallimg {
