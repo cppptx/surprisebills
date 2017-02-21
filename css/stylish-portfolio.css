@@ -165,16 +165,20 @@ p {
 	font-size: 1.7em;
 }
 
-#report_a {
-	color: #191919;
-	background-color: #fff;
-	font-family: 'Oswald', sans-serif;
-	font-size: 2em;
-	padding: 5px;
-}
-
 .header .btn {
 	margin-top: 5px;
+}
+
+.reporta {
+	background-color: #044C55;
+	border: none;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+}
+
+.reporta:hover {
+	background-color: #fff;
+	color: #101010;
 }
 
 #headerlogo {
