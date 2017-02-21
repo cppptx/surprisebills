@@ -181,6 +181,11 @@ p {
 	color: #101010;
 }
 
+.reporta:focus {
+	background-color: #fff;
+	color: #101010;
+}
+
 #headerlogo {
 	max-width: 30%;
 	padding-top: 1%;
